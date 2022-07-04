@@ -14,15 +14,15 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.yellow[400],
         ),
         body: Container(
-          color: Colors.blue[500],
+          color: Colors.white,
           child: Center(
-            child: Text(
-              'hello',
-              style: TextStyle(
-                color: Colors.red[500],
-                fontSize: 50,
-              ),
-            ),
+            child: Row(mainAxisSize: MainAxisSize.min, children: [
+              Icon(Icons.star, color: Colors.green[400]),
+              Icon(Icons.star, color: Colors.green[400]),
+              Icon(Icons.star, color: Colors.green[400]),
+              Icon(Icons.star, color: Colors.black),
+              Icon(Icons.star, color: Colors.black),
+            ]),
           ),
         ),
       ),
