@@ -162,9 +162,10 @@ class _productState extends State<Home> {
           crossAxisSpacing: 10,
           crossAxisCount: 2,
           children: [
-            products('1', 'Ảnh 1', 23, 'Của mọi nhà'),
-            products('2', 'Ảnh 2', 34, 'Của mọi nhà'),
-            products('3', 'Ảnh 3', 23, 'Của mọi nhà'),
+            products('1', 'Ảnh 1', 23, 'Của mọi nhà Ảnh 1'),
+            products('2', 'Ảnh 2', 34, 'Của mọi nhà Ảnh 2'),
+            products('3', 'Ảnh 3', 43, 'Của mọi nhà Ảnh 3'),
+
             //cr().build(context),
             // Container(
             //     decoration: BoxDecoration(
